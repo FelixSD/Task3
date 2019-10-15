@@ -1,0 +1,14 @@
+TODO 3
+--------------------------------------------
+Continue: Programm wird weiter ausgeführt, bis der nächste Breakpoint erreicht oder das Programm beendet ist
+Step over: Geht über eine Zeile. Enthält diese eine Funktion, wird diese ausgefürt und das Ergebnis zurückgeliefert, ohne jede Zeile der Funktion zu durchlaufen
+Step into: Im Prinzip das gleiche wie Step over, nur wird bei Step into auch bei einem Funktionsaufruf jede einzelne Codezeile durchlaufen und nicht nur der Return Wert zurückgegeben
+Step out: Geht zu der Zeile Code zurück, in der die momentane Funktion aufgerufen wurde
+Stop: Beendet die momentane Debug-Session
+
+TODO 8
+---------------------------------------------
+Printf: Hier kann durch WriteLine Befehle die einzusehenden Variablen über die Konsole ausgegeben werden. Spart den debug Prozess. Allerdings wird der Code dadurch schnell unübersichtlich. Wenn man den Fehler
+an erwarteter Position nicht gefunden hat, muss man Programm allerdings ganz neu starten und die alten WriteLine Befehle wieder löschen.
+Debugger: Erlaubt ein genaues Einsehen in die momentane Variablen Struktur. Während des Degub-Prozess kann durch jede einzelne Code Zeile gegangen werden, um sich veränderde Werte genau nach zu verfolgen.
+Der Inhalt einzelner Variablen kann testweise zur Debug-Zeit auch verändert werden. Erlaubt generell einen besseren Überblick

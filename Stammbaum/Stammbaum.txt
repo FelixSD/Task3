@@ -1,0 +1,4 @@
+Ja die Methode Find ist rekursiv, da sie sich selbst wieder aufruft.
+
+Die Variable root, die die Stammbäume enthält, ist sehr verschachtelt, da es immer tiefere Verschachtelungen von Mom / Dad Verhältnissen gibt. 
+Demnach gibt es zu jeder Mom und Dad weitere Mom und Dad Beziehungen, allerdings auf einer tieferen bzw. höheren Ebene.
